@@ -1,0 +1,102 @@
+MITHUN MOHAN
+ Mangalore, Karnataka, India – 575003
+ mithunmohan297@gmail.com | github.com/metalturtle | +91 6361520121
+ Open to remote opportunities and relocation
+
+Professional Summary
+Engineering Lead with 7+ years of experience in blockchain, full-stack development, and AI systems. Proven expertise in smart contract development, Web3 integrations, and leading cross-functional technical teams. Adept at delivering secure, scalable solutions across web, finance, and gaming sectors.
+
+Education
+Bachelor of Engineering (Information Science)
+ NMAM Institute of Technology, Karnataka — 2014 – 2018
+
+Professional Experience
+StackOS / Decloud Labs
+ StackOS | Decloud Labs
+ Team Lead → Engineering Head — Oct 2022 – May 2025
+Led and mentored a development team on multiple blockchain projects
+
+
+Deployed and tested smart contracts (ERC20, ERC721, Uniswap V2, staking, balance settlement)
+
+
+Designed systems for event indexing and smart contract event processing
+
+
+Maintained packages for RPC calls and encryption in frontend/backend apps
+
+
+Developed agentic AI systems for workflow execution and parameter extraction
+
+
+Created IndiaBlockchainWeek.in for event registration
+
+
+Maintained multiple Web3-integrated websites
+
+
+KryptoKoders
+ https://kryptokoders.com
+ Smart Contract Developer — Apr 2024 – Jun 2025
+Developed and reviewed smart contracts (staking, aggregation, ERC20, bridging, Uniswap V2)
+
+
+Built frontend functionality for smart contract read/write operations
+
+
+Infosys Technologies
+ https://www.infosys.com
+ System Engineer → Senior System Engineer → Specialist Programmer — May 2018 – Feb 2022
+Automated sales and finance reports via ETL frameworks
+
+
+Enhanced and supported Oracle ERP-based ETL processes
+
+
+Built secure web applications with ORM integration and frontend/backend logic
+
+
+Used Agile development methodologies
+
+
+
+Projects
+Shadow Hunt (Java) — 2022
+Multiplayer 2D game using Java, LIBGDX, Kryonet
+
+
+Implemented UDP streaming with delta compression and reliable delivery
+
+
+Built extensible entity creation system and in-game map editor
+
+
+Shadow Hunt (C/C++) — 2022
+Ported game to C/C++ with custom serialization and datagram sockets
+
+
+Built custom heap allocator for memory efficiency
+
+
+Integrated OpenGL, GLFW, and GLM for 3D graphics
+
+
+Applied data-driven design
+
+
+Pet AI (JavaScript, Vite) — 2025
+Built interactive AI chat UI inspired by Tamagotchi
+
+
+Enabled natural conversations with an AI pet agent
+
+
+
+Skills
+Languages: JavaScript, TypeScript, Python, Java, C, C++, Solidity, SQL
+ Web & Frameworks: React, Vite, Node.js, Express, LIBGDX, Kryonet, OpenGL, GLFW, GLM
+ Blockchain: ERC20, ERC721, Uniswap V2, Web3.js, Ethers.js
+ Cloud & Tools: AWS, Docker, Git
+ Databases: Oracle, PostgreSQL, MongoDB
+ Other: ETL Frameworks, Data-Driven Design, AI System Development
+
