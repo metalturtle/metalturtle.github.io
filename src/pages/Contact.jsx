@@ -35,18 +35,18 @@ const Contact = () => {
       value: "mithunmohan297@gmail.com",
       href: "mailto:mithunmohan297@gmail.com",
     },
-    {
-      icon: Phone,
-      label: "Phone",
-      value: "+91 6361520121",
-      href: "tel:+916361520121",
-    },
-    {
-      icon: MapPin,
-      label: "Location",
-      value: "Mangalore, Karnataka, India – 575003",
-      href: "https://maps.google.com/?q=Mangalore,Karnataka,India",
-    },
+    // {
+    //   icon: Phone,
+    //   label: "Phone",
+    //   value: "+91 6361520121",
+    //   href: "tel:+916361520121",
+    // },
+    // {
+    //   icon: MapPin,
+    //   label: "Location",
+    //   value: "Mangalore, Karnataka, India – 575003",
+    //   href: "https://maps.google.com/?q=Mangalore,Karnataka,India",
+    // },
   ];
 
   const socialLinks = [
@@ -263,13 +263,13 @@ const Contact = () => {
               <Mail className="w-5 h-5 mr-2" />
               Email Me
             </a>
-            <a
+            {/* <a
               href="tel:+916361520121"
               className="inline-flex items-center px-6 py-3 border border-primary-600 text-primary-600 font-medium rounded-lg hover:bg-primary-50 transition-colors"
             >
               <Phone className="w-5 h-5 mr-2" />
               Call Me
-            </a>
+            </a> */}
             <a
               href="https://linkedin.com/in/mithunmohan"
               target="_blank"

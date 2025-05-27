@@ -147,11 +147,11 @@ const Resume = () => {
             Engineering Lead with 7+ years of experience in blockchain,
             full-stack development, and AI systems
           </p>
-          <div className="text-gray-600 mb-6">
+          {/* <div className="text-gray-600 mb-6">
             <p>📍 Mangalore, Karnataka, India – 575003</p>
             <p>📧 mithunmohan297@gmail.com | 📱 +91 6361520121</p>
             <p>🌍 Open to remote opportunities and relocation</p>
-          </div>
+          </div> */}
           <a
             href="/resume.pdf"
             download

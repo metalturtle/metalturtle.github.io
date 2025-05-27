@@ -97,11 +97,11 @@ const About = () => {
 
         {/* Quick Info */}
         <div className="grid md:grid-cols-3 gap-6 mb-16">
-          <div className="text-center p-6 bg-gray-50 rounded-lg">
+          {/* <div className="text-center p-6 bg-gray-50 rounded-lg">
             <MapPin className="w-8 h-8 text-primary-600 mx-auto mb-2" />
             <h3 className="font-semibold text-gray-900 mb-1">Location</h3>
             <p className="text-gray-600">Mangalore, Karnataka, India</p>
-          </div>
+          </div> */}
           <div className="text-center p-6 bg-gray-50 rounded-lg">
             <Calendar className="w-8 h-8 text-primary-600 mx-auto mb-2" />
             <h3 className="font-semibold text-gray-900 mb-1">Experience</h3>
