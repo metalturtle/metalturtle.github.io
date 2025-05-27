@@ -9,7 +9,6 @@ const Layout = ({ children }) => {
   const navigation = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Blog", href: "/blog" },
     { name: "Resume", href: "/resume" },
     { name: "Contact", href: "/contact" },
   ];
@@ -24,7 +23,7 @@ const Layout = ({ children }) => {
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <Link to="/" className="text-xl font-bold text-gray-900">
-                Your Name
+                Mithun Mohan
               </Link>
             </div>
 
@@ -88,11 +87,11 @@ const Layout = ({ children }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-600 text-sm mb-4 md:mb-0">
-              © 2024 Your Name. All rights reserved.
+              © 2024 Mithun Mohan. All rights reserved.
             </div>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/metalturtle"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary-600 transition-colors"
@@ -100,7 +99,7 @@ const Layout = ({ children }) => {
                 <Github size={20} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/mithunmohan"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-primary-600 transition-colors"
@@ -108,7 +107,7 @@ const Layout = ({ children }) => {
                 <Linkedin size={20} />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:mithunmohan297@gmail.com"
                 className="text-gray-600 hover:text-primary-600 transition-colors"
               >
                 <Mail size={20} />

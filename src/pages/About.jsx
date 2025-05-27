@@ -3,41 +3,77 @@ import { Download, MapPin, Calendar, Award } from "lucide-react";
 const About = () => {
   const skills = [
     {
-      category: "Frontend",
-      items: ["React", "Vue.js", "TypeScript", "Tailwind CSS", "Next.js"],
+      category: "Languages",
+      items: [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Java",
+        "C",
+        "C++",
+        "Solidity",
+        "SQL",
+      ],
     },
     {
-      category: "Backend",
-      items: ["Node.js", "Python", "Express", "FastAPI", "PostgreSQL"],
+      category: "Web & Frameworks",
+      items: [
+        "React",
+        "Vite",
+        "Node.js",
+        "Express",
+        "LIBGDX",
+        "OpenGL",
+        "GLFW",
+        "GLM",
+      ],
     },
-    { category: "Tools", items: ["Git", "Docker", "AWS", "Vercel", "Figma"] },
     {
-      category: "Other",
-      items: ["GraphQL", "REST APIs", "Testing", "CI/CD", "Agile"],
+      category: "Blockchain",
+      items: [
+        "ERC20",
+        "ERC721",
+        "Uniswap V2",
+        "Web3.js",
+        "Ethers.js",
+        "Smart Contracts",
+      ],
+    },
+    {
+      category: "Cloud & Tools",
+      items: [
+        "AWS",
+        "Docker",
+        "Git",
+        "Oracle",
+        "PostgreSQL",
+        "MongoDB",
+        "ETL Frameworks",
+      ],
     },
   ];
 
   const experience = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "Tech Company Inc.",
-      period: "2022 - Present",
+      title: "Engineering Head",
+      company: "StackOS / Decloud Labs",
+      period: "Oct 2022 - May 2025",
       description:
-        "Lead development of web applications using React and Node.js. Mentored junior developers and implemented best practices for code quality and performance.",
+        "Led and mentored development teams on multiple blockchain projects. Deployed smart contracts (ERC20, ERC721, Uniswap V2, staking), designed event indexing systems, and developed agentic AI systems for workflow execution.",
     },
     {
-      title: "Frontend Developer",
-      company: "Digital Agency",
-      period: "2020 - 2022",
+      title: "Smart Contract Developer",
+      company: "KryptoKoders",
+      period: "Apr 2024 - Jun 2025",
       description:
-        "Built responsive web applications for various clients using modern JavaScript frameworks. Collaborated with designers to create pixel-perfect user interfaces.",
+        "Developed and reviewed smart contracts for staking, aggregation, ERC20, bridging, and Uniswap V2. Built frontend functionality for smart contract read/write operations.",
     },
     {
-      title: "Junior Developer",
-      company: "Startup Co.",
-      period: "2019 - 2020",
+      title: "Specialist Programmer",
+      company: "Infosys Technologies",
+      period: "May 2018 - Feb 2022",
       description:
-        "Developed features for a SaaS platform using React and Python. Gained experience in full-stack development and agile methodologies.",
+        "Automated sales and finance reports via ETL frameworks. Enhanced Oracle ERP-based ETL processes and built secure web applications with ORM integration using Agile methodologies.",
     },
   ];
 
@@ -48,13 +84,14 @@ const About = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-6">About Me</h1>
           <div className="w-32 h-32 bg-gray-300 rounded-full mx-auto mb-6 flex items-center justify-center">
-            <span className="text-gray-600 text-sm">Your Photo</span>
+            <span className="text-gray-600 text-sm">Mithun's Photo</span>
           </div>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            I'm a passionate full-stack developer with over 5 years of
-            experience building web applications that solve real-world problems.
-            I love learning new technologies and sharing knowledge with the
-            developer community.
+            I'm an Engineering Lead with 7+ years of experience in blockchain,
+            full-stack development, and AI systems. I specialize in smart
+            contract development, Web3 integrations, and leading
+            cross-functional technical teams to deliver secure, scalable
+            solutions.
           </p>
         </div>
 
@@ -63,17 +100,17 @@ const About = () => {
           <div className="text-center p-6 bg-gray-50 rounded-lg">
             <MapPin className="w-8 h-8 text-primary-600 mx-auto mb-2" />
             <h3 className="font-semibold text-gray-900 mb-1">Location</h3>
-            <p className="text-gray-600">San Francisco, CA</p>
+            <p className="text-gray-600">Mangalore, Karnataka, India</p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg">
             <Calendar className="w-8 h-8 text-primary-600 mx-auto mb-2" />
             <h3 className="font-semibold text-gray-900 mb-1">Experience</h3>
-            <p className="text-gray-600">5+ Years</p>
+            <p className="text-gray-600">7+ Years</p>
           </div>
           <div className="text-center p-6 bg-gray-50 rounded-lg">
             <Award className="w-8 h-8 text-primary-600 mx-auto mb-2" />
             <h3 className="font-semibold text-gray-900 mb-1">Focus</h3>
-            <p className="text-gray-600">Full-Stack Development</p>
+            <p className="text-gray-600">Blockchain & Web3</p>
           </div>
         </div>
 
@@ -82,23 +119,25 @@ const About = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-6">My Story</h2>
           <div className="prose-custom">
             <p>
-              My journey into web development started during college when I
-              built my first website for a local business. What began as a
-              simple project sparked a passion that has driven my career ever
-              since.
+              My journey in technology began with a Bachelor's degree in
+              Information Science from NMAM Institute of Technology. What
+              started as curiosity about software development evolved into a
+              passion for blockchain technology and decentralized systems.
             </p>
             <p>
-              Over the years, I've had the opportunity to work with startups,
-              agencies, and established companies, each experience teaching me
-              something new about building great software. I believe in writing
-              clean, maintainable code and creating user experiences that are
-              both beautiful and functional.
+              Over the past 7+ years, I've had the privilege of working across
+              diverse domains - from enterprise ETL systems at Infosys to
+              cutting-edge blockchain infrastructure at StackOS. I've led teams
+              in developing smart contracts, building Web3 applications, and
+              creating innovative solutions that bridge traditional software
+              with decentralized technologies.
             </p>
             <p>
-              When I'm not coding, you can find me writing technical articles,
-              contributing to open-source projects, or exploring the latest
-              developments in web technology. I'm always excited to take on new
-              challenges and collaborate with other passionate developers.
+              When I'm not coding smart contracts or architecting blockchain
+              systems, you'll find me working on game development projects like
+              Shadow Hunt, exploring AI systems, or mentoring fellow developers.
+              I believe in the transformative power of blockchain technology and
+              am passionate about building the decentralized future.
             </p>
           </div>
         </section>
@@ -159,8 +198,9 @@ const About = () => {
             Let's Work Together
           </h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            I'm always interested in new opportunities and exciting projects.
-            Feel free to reach out if you'd like to collaborate!
+            I'm always interested in new opportunities and exciting blockchain
+            projects. Open to remote opportunities and relocation. Feel free to
+            reach out!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

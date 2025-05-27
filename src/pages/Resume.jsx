@@ -3,118 +3,137 @@ import { Download, ExternalLink, Github } from "lucide-react";
 const Resume = () => {
   const experience = [
     {
-      title: "Senior Full-Stack Developer",
-      company: "Tech Company Inc.",
-      location: "San Francisco, CA",
-      period: "2022 - Present",
-      description: [
-        "Lead development of web applications using React, Node.js, and PostgreSQL",
-        "Mentored 3 junior developers and established code review processes",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      title: "Frontend Developer",
-      company: "Digital Agency",
+      title: "Engineering Head",
+      company: "StackOS / Decloud Labs",
       location: "Remote",
-      period: "2020 - 2022",
+      period: "Oct 2022 - May 2025",
       description: [
-        "Built responsive web applications for 15+ clients using React and Vue.js",
-        "Collaborated with designers to create pixel-perfect user interfaces",
-        "Optimized application performance resulting in 40% faster load times",
-        "Integrated third-party APIs and payment systems",
+        "Led and mentored a development team on multiple blockchain projects",
+        "Deployed and tested smart contracts (ERC20, ERC721, Uniswap V2, staking, balance settlement)",
+        "Designed systems for event indexing and smart contract event processing",
+        "Maintained packages for RPC calls and encryption in frontend/backend apps",
+        "Developed agentic AI systems for workflow execution and parameter extraction",
+        "Created IndiaBlockchainWeek.in for event registration",
+        "Maintained multiple Web3-integrated websites",
       ],
     },
     {
-      title: "Junior Developer",
-      company: "Startup Co.",
-      location: "Austin, TX",
-      period: "2019 - 2020",
+      title: "Smart Contract Developer",
+      company: "KryptoKoders",
+      location: "Remote",
+      period: "Apr 2024 - Jun 2025",
       description: [
-        "Developed features for SaaS platform using React and Python",
-        "Participated in agile development process and daily standups",
-        "Wrote unit tests achieving 85% code coverage",
-        "Fixed bugs and implemented user-requested features",
+        "Developed and reviewed smart contracts (staking, aggregation, ERC20, bridging, Uniswap V2)",
+        "Built frontend functionality for smart contract read/write operations",
+        "Collaborated with cross-functional teams on DeFi protocol development",
+        "Implemented security best practices for smart contract development",
+      ],
+    },
+    {
+      title: "Specialist Programmer",
+      company: "Infosys Technologies",
+      location: "Bangalore, India",
+      period: "May 2018 - Feb 2022",
+      description: [
+        "Automated sales and finance reports via ETL frameworks",
+        "Enhanced and supported Oracle ERP-based ETL processes",
+        "Built secure web applications with ORM integration and frontend/backend logic",
+        "Used Agile development methodologies for project delivery",
+        "Progressed from System Engineer to Senior System Engineer to Specialist Programmer",
       ],
     },
   ];
 
   const education = [
     {
-      degree: "Bachelor of Science in Computer Science",
-      school: "University of Technology",
-      location: "Austin, TX",
-      period: "2015 - 2019",
-      details: "Graduated Magna Cum Laude, GPA: 3.8/4.0",
+      degree: "Bachelor of Engineering (Information Science)",
+      school: "NMAM Institute of Technology",
+      location: "Karnataka, India",
+      period: "2014 - 2018",
+      details: "Specialized in Information Science and Engineering",
     },
   ];
 
   const skills = {
-    Frontend: [
-      "React",
-      "Vue.js",
-      "TypeScript",
+    Languages: [
       "JavaScript",
-      "HTML5",
-      "CSS3",
-      "Tailwind CSS",
-      "Next.js",
-    ],
-    Backend: [
-      "Node.js",
+      "TypeScript",
       "Python",
+      "Java",
+      "C",
+      "C++",
+      "Solidity",
+      "SQL",
+    ],
+    "Web & Frameworks": [
+      "React",
+      "Vite",
+      "Node.js",
       "Express",
-      "FastAPI",
+      "LIBGDX",
+      "Kryonet",
+      "OpenGL",
+      "GLFW",
+      "GLM",
+    ],
+    Blockchain: [
+      "ERC20",
+      "ERC721",
+      "Uniswap V2",
+      "Web3.js",
+      "Ethers.js",
+      "Smart Contracts",
+      "DeFi Protocols",
+    ],
+    "Cloud & Tools": [
+      "AWS",
+      "Docker",
+      "Git",
+      "Oracle",
       "PostgreSQL",
       "MongoDB",
-      "Redis",
-    ],
-    "Tools & Technologies": [
-      "Git",
-      "Docker",
-      "AWS",
-      "Vercel",
-      "Jest",
-      "Cypress",
-      "Figma",
-      "Webpack",
-    ],
-    Methodologies: [
-      "Agile",
-      "Scrum",
-      "TDD",
-      "CI/CD",
-      "Code Review",
-      "REST APIs",
-      "GraphQL",
+      "ETL Frameworks",
     ],
   };
 
   const projects = [
     {
-      name: "E-commerce Platform",
+      name: "Shadow Hunt (Java)",
       description:
-        "Full-stack e-commerce solution with React frontend and Node.js backend",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      github: "https://github.com/yourusername/ecommerce",
-      demo: "https://ecommerce-demo.com",
+        "Multiplayer 2D game using Java, LIBGDX, Kryonet with UDP streaming and delta compression",
+      technologies: ["Java", "LIBGDX", "Kryonet", "UDP", "Game Development"],
+      github: "https://github.com/metalturtle/shadow-hunt-java",
+      demo: null,
     },
     {
-      name: "Task Management App",
+      name: "Shadow Hunt (C/C++)",
       description:
-        "Collaborative task management application with real-time updates",
-      technologies: ["Vue.js", "Express", "Socket.io", "MongoDB"],
-      github: "https://github.com/yourusername/taskapp",
-      demo: "https://taskapp-demo.com",
+        "Ported game to C/C++ with custom serialization, heap allocator, and OpenGL integration",
+      technologies: [
+        "C++",
+        "OpenGL",
+        "GLFW",
+        "GLM",
+        "Custom Memory Management",
+      ],
+      github: "https://github.com/metalturtle/shadow-hunt-cpp",
+      demo: null,
     },
     {
-      name: "Weather Dashboard",
+      name: "Pet AI",
       description:
-        "Weather dashboard with location-based forecasts and interactive maps",
-      technologies: ["React", "TypeScript", "Weather API", "Mapbox"],
-      github: "https://github.com/yourusername/weather",
-      demo: "https://weather-demo.com",
+        "Interactive AI chat UI inspired by Tamagotchi with natural conversation capabilities",
+      technologies: ["JavaScript", "Vite", "AI Integration", "Chat UI"],
+      github: "https://github.com/metalturtle/pet-ai",
+      demo: "https://pet-ai-demo.com",
+    },
+    {
+      name: "IndiaBlockchainWeek.in",
+      description:
+        "Event registration platform for India Blockchain Week with Web3 integration",
+      technologies: ["React", "Web3", "Smart Contracts", "Event Management"],
+      github: null,
+      demo: "https://indiablockchainweek.in",
     },
   ];
 
@@ -125,9 +144,14 @@ const Resume = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Resume</h1>
           <p className="text-xl text-gray-600 mb-6">
-            Full-Stack Developer with 5+ years of experience building scalable
-            web applications
+            Engineering Lead with 7+ years of experience in blockchain,
+            full-stack development, and AI systems
           </p>
+          <div className="text-gray-600 mb-6">
+            <p>📍 Mangalore, Karnataka, India – 575003</p>
+            <p>📧 mithunmohan297@gmail.com | 📱 +91 6361520121</p>
+            <p>🌍 Open to remote opportunities and relocation</p>
+          </div>
           <a
             href="/resume.pdf"
             download
@@ -137,6 +161,22 @@ const Resume = () => {
             Download PDF
           </a>
         </div>
+
+        {/* Professional Summary */}
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Professional Summary
+          </h2>
+          <div className="bg-gray-50 rounded-lg p-6">
+            <p className="text-gray-700 leading-relaxed">
+              Engineering Lead with 7+ years of experience in blockchain,
+              full-stack development, and AI systems. Proven expertise in smart
+              contract development, Web3 integrations, and leading
+              cross-functional technical teams. Adept at delivering secure,
+              scalable solutions across web, finance, and gaming sectors.
+            </p>
+          </div>
+        </section>
 
         {/* Experience */}
         <section className="mb-12">
@@ -226,7 +266,7 @@ const Resume = () => {
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
             Featured Projects
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             {projects.map((project, index) => (
               <div
                 key={index}
@@ -249,52 +289,31 @@ const Resume = () => {
                 </div>
 
                 <div className="flex gap-3">
-                  <a
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-gray-600 hover:text-primary-600 transition-colors"
-                  >
-                    <Github size={16} className="mr-1" />
-                    Code
-                  </a>
-                  <a
-                    href={project.demo}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center text-gray-600 hover:text-primary-600 transition-colors"
-                  >
-                    <ExternalLink size={16} className="mr-1" />
-                    Demo
-                  </a>
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-gray-600 hover:text-primary-600 transition-colors"
+                    >
+                      <Github size={16} className="mr-1" />
+                      Code
+                    </a>
+                  )}
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-gray-600 hover:text-primary-600 transition-colors"
+                    >
+                      <ExternalLink size={16} className="mr-1" />
+                      Demo
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
-          </div>
-        </section>
-
-        {/* Certifications */}
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            Certifications
-          </h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                AWS Certified Developer
-              </h3>
-              <p className="text-gray-600 mb-2">Amazon Web Services</p>
-              <p className="text-sm text-gray-500">
-                Issued: 2023 • Expires: 2026
-              </p>
-            </div>
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                React Developer Certification
-              </h3>
-              <p className="text-gray-600 mb-2">Meta (Facebook)</p>
-              <p className="text-sm text-gray-500">Issued: 2022</p>
-            </div>
           </div>
         </section>
 
@@ -304,23 +323,24 @@ const Resume = () => {
             Let's Work Together
           </h2>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            I'm always interested in new opportunities and exciting projects.
-            Let's discuss how I can contribute to your team.
+            I'm always interested in new opportunities and exciting blockchain
+            projects. Open to remote opportunities and relocation. Let's discuss
+            how I can contribute to your team.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:mithunmohan297@gmail.com"
               className="inline-flex items-center px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors"
             >
               Send Email
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://github.com/metalturtle"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 border border-primary-600 text-primary-600 font-medium rounded-lg hover:bg-primary-50 transition-colors"
             >
-              LinkedIn Profile
+              GitHub Profile
             </a>
           </div>
         </section>
